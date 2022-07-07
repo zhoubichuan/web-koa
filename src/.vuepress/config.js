@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Docker学习笔记',
+  title: 'Koa学习笔记',
   description: '风浪没平息 我宣告奔跑的意义',
   base: '/web-koa/', // 部署站点的基础路径
   port: 3009,
@@ -8,11 +8,6 @@ module.exports = {
     toc: { includeLevel: [2, 3] },
     lineNumbers: true // 代码块显示行号
   },
-  // head: [
-  //   ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
-  //   ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }]
-  // ],
-
   plugins: {
     // 名称：@vuepress/plugin-pwa 网页内容有更新的时候有刷新按钮。可以把网页保存到桌面，当一个app一样
     '@vuepress/pwa': {
